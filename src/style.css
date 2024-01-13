@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  margin: 0; 
+}
+
+
+ #root{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;   
+}
+.calculator{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5%;
+ box-shadow: 1px 1px 80px blue;
+ padding: 10px;  
+}
+
+input{
+    width: 200px;
+    height: 30px; 
+    border: 1.5px solid #000;
+    padding: 5px; 
+    padding-left: 10px; 
+}
+
+.sign{
+   width: 40px;
+   height: 40px;
+   background-color: pink;  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #2a2a2a;
+   color: white;
+}
+#inner-box{
+    width: 200px;
+    height: 50px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.message {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: blue;
+  }
+  
